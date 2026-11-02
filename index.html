@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f2e9">
+    <meta name="description" content="성심당 본점 가까이에서 만나는 대전의 장소 추천 10곳">
+    <title>안녕하세요 장승운</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">대전 · 오늘의 장소 추천</p>
+        <h1>안녕하세요 장승운</h1>
+        <p class="intro">성심당 본점에서 가까운 맛집과 카페, 산책·문화 공간을 골랐어요.</p>
+        <p class="anchor-note">기준점 · 성심당 본점</p>
+      </header>
+
+      <section class="recommendations" aria-labelledby="list-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">다음 한 걸음</p>
+            <h2 id="list-title">오늘의 추천 장소</h2>
+          </div>
+          <p id="status" class="status" role="status" aria-live="polite">장소를 불러오는 중입니다.</p>
+        </div>
+        <ol id="places" class="place-list" aria-label="추천 장소 10곳"></ol>
+      </section>
+
+      <footer>
+        <p>장소 설명과 추천 규칙은 <a href="https://github.com/rhaxod7784-png/sungsim/tree/abffc925533e8ee70e9235e3c628c3f10ffae111" target="_blank" rel="noopener noreferrer">sungsim 저장소</a>의 공개 자료를 바탕으로 했습니다.</p>
+        <p>거리는 성심당 본점 기준 직선거리이며, 실제 도보 경로와 다를 수 있습니다. 방문 전 운영 정보를 확인해 주세요.</p>
+      </footer>
+    </main>
+  </body>
+</html>
